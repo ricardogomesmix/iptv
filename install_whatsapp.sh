@@ -8,7 +8,7 @@ amarelo="\033[1;33m"
 barra="\E[44;1;37m"
 tag_barra="\E[0m"
 tag="\033[0m"
-url='raw.githubusercontent.com/ricardogomesmix/iptv/master/key'
+url='https://raw.githubusercontent.com/ricardogomesmix/iptv/master/key'
 linha="═══════════════════════════════"
 linha+="═════════════════════"
 clear
@@ -53,7 +53,7 @@ read resp
   echo ''
   echo -e "${verde}CRIANDO AMBIENTE PARA O BOT...${tag}"
   
-  wget 144.217.129.190/whatsapp.zip > /dev/null 2>&1
+  wget https://github.com/ricardogomesmix/iptv/blob/master/whatsapp.zip?raw=true > /dev/null 2>&1
   
   
   chmod 777 $(ls) > /dev/null 2>&1
@@ -77,7 +77,7 @@ read resp
   echo -e "${verde}SUPORTE:${tag} ${branco}@Bruno_VPN${tag}"
   
   cd $HOME
-  wget 144.217.129.190/botzap > /dev/null 2>&1
+  wget https://raw.githubusercontent.com/ricardogomesmix/iptv/master/botzap > /dev/null 2>&1
   chmod 777 botzap > /dev/null 2>&1
   mv botzap /bin/botzap > /dev/null 2>&1
 }
