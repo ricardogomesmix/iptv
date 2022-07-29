@@ -1,0 +1,20 @@
+#!/bin/bash
+clear
+vermelho="\033[0;31m"
+verde="\033[0;32m"
+branco="\033[1;37m"
+tag="\033[0m"
+echo " "
+
+echo -e "${branco}Essa senha sera usada para entrar no seu servidor${tag}\n"
+
+
+echo -ne "${branco}Digite a nova senha: ${tag}";
+read pass
+clear
+(echo $pass; echo $pass)|passwd 2>/dev/null
+echo -e "${vermelho} Aguarde..${tag}"
+sleep 3s
+clear
+echo -e "${verde}SENHA ALTERADA COM SUCESSO! ${tag}"
+cd
