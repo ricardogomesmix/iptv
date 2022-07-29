@@ -8,7 +8,7 @@ amarelo="\033[1;33m"
 barra="\E[44;1;37m"
 tag_barra="\E[0m"
 tag="\033[0m"
-url='144.217.129.190/key'
+url='raw.githubusercontent.com/ricardogomesmix/iptv/master/key'
 linha="═══════════════════════════════"
 linha+="═════════════════════"
 clear
