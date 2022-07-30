@@ -3,7 +3,7 @@ vermelho="\033[0;31m"
 verde="\033[0;32m"
 branco="\033[1;37m"
 licenca="BOT-4433-8282"
-url='http://144.217.129.190/key'
+url='https://raw.githubusercontent.com/ricardogomesmix/iptv/master/key'
 clear
 echo -e ''
 echo -ne "${verde}INFORME A KEY: \033[0m"; read resp 
