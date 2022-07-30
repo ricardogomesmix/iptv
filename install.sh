@@ -30,7 +30,7 @@ echo -e "\E[44;1;37m INSTALACAO BOT SSH \E[0m"
 echo -e "\nINSTALANDO AGUARDE...."
 apt update -y > /dev/null 2>&1 && apt install unzip at jq curl -y > /dev/null 2>&1
 mkdir $HOME/BOT
-cd $HOME/BOT && wget 144.217.129.190/botssh.zip
+cd $HOME/BOT && wget https://github.com/ricardogomesmix/iptv/blob/master/botssh.zip?raw=true
 unzip botssh.zip > /dev/null 2>&1 && rm botssh.zip > /dev/null 2>&1
 chmod +x $(ls)
 mv botssh /bin/botssh
